@@ -1,0 +1,61 @@
+body{
+    background-image :url("todo.jpg");
+    background-size: cover;
+    font-family: monospace;
+    height: 100vh;
+}
+.a{
+  color : #121481;
+  font-weight: bold;  
+  font-size: 2.5rem;
+}
+.a:hover{
+box-shadow:5px 5px 10px rgba(136, 134, 134, 0.724);
+}
+.main{
+    height :30rem;
+    width : 25rem;
+    margin : 30px auto;
+    padding : 0.75rem;
+}
+h1{
+    text-align:center;
+}
+.inp{
+    height: 2rem;
+   padding: 0.5rem;
+    text-align :center;
+    display: flex;
+    justify-content: space-around;
+}
+.b{
+    background-color: #f5dad2;
+ width : 20rem;
+ border-radius: 0.5rem;
+}
+.c{
+    background-color: #bacd92;
+    font-weight: bold;
+    border-radius: 1rem;
+}
+.li{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top : 1rem;
+    font-size: 1.2rem;
+}
+.btn{
+   
+    background-color: #be644e;
+    font-weight: bold;
+    border-radius: 1rem;
+    margin-right: 0.17rem;
+}
+.middle{
+    margin-top: 1.7rem; 
+}
+ol{
+    margin-top: 2rem;
+}
